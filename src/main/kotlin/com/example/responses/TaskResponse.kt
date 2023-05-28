@@ -4,5 +4,5 @@ class TaskResponse(
     val id: Int,
     val account: String,
     val password: String,
-    val exp: String
+    val exp: Int
 )
