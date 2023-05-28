@@ -22,7 +22,7 @@ fun main() {
 fun Application.module() {
     configureTemplating()
     configureSerialization()
-    configureMonitoring()
+    //configureMonitoring()
     configureRouting()
     //連接資料庫
     Database.connect(
