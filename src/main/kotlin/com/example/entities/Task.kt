@@ -10,5 +10,5 @@ class Task(id: EntityID<Int>) : IntEntity(id){
 
     var account:String by Tasks.account
     var password:String by Tasks.password
-    var exp:String by Tasks.exp
+    var exp:Int by Tasks.exp
 }
