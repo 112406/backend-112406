@@ -8,5 +8,5 @@ import org.jetbrains.exposed.sql.jodatime.datetime
 object Tasks : IntIdTable(){
     val account = varchar("account", length = 255)
     val password = varchar("password", length = 255)
-    val exp = varchar("exp", length = 255)
+    val exp = integer("exp").default(0)
 }
