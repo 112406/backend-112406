@@ -3,7 +3,11 @@ package com.example.responses
 class TimesResponse(
     val id: Int,
     val fitnessdate: String,
-    val pushup: String,
-    val sqart: String,
-    val plank: String
+    val pushup: Int,
+    val sqart: Int,
+    val plank: Int,
+    val leg_lift: Int,
+    val lunge_squat: Int,
+    val bike_crunch: Int,
+    val bridge: Int
 )
